@@ -30,7 +30,7 @@ function mostrarLista(lista) {
   for (const item of lista) {
     console.log(item);
   }
-  console.log("Cantidad de elementos: ${lista.length}");
+  console.log("Cantidad de elementos: ${lista.lenght}");
 }
 
 mostrarLista([]);
